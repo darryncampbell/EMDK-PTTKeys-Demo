@@ -24,10 +24,9 @@ public class MainActivity extends AppCompatActivity {
     {
         super.onResume();
         final IntentFilter requestFilter = new IntentFilter();
-        //  todo this sample does not capture the scan buttons so is confusing that even the folder refers to the Scan keys
-        requestFilter.addAction("com.symbol.button.L1");    //  Scan LHS
+        requestFilter.addAction("com.symbol.button.L1");    //
         requestFilter.addAction("com.symbol.button.L2");    //  PTT LHS
-        requestFilter.addAction("com.symbol.button.R1");    //  Scan RHS
+        requestFilter.addAction("com.symbol.button.R1");    //
         requestFilter.addAction("com.symbol.button.R2");    //  PTT RHS
         registerReceiver(myBroadcastReceiver, requestFilter);
     }
