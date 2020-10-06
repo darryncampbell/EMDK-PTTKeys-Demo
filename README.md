@@ -1,3 +1,6 @@
+*Please be aware that this application / sample is provided as-is for demonstration purposes without any guarantee of support*
+=========================================================
+
 # Detect PTT Keys via Android Intents on Zebra Devices Demo
 Demo app to show the Zebra RemoteKey Service to deliver PTT keys via Intents
 
